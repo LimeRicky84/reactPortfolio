@@ -1,7 +1,7 @@
 const logotext = "Ric.Madse";
 const meta = {
     title: "Eric Madsen",
-    description: "I'm Eric Madsen, a web development student",
+    description: "I'm Eric Madsen, a web development student at The University of Utah",
 };
 
 const introdata = {
@@ -37,24 +37,19 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
+        name: "JavaScript",
     },
     {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
+        name: "MongoDB",
     },
     {
         name: "React",
-        value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Node",
+    },
+    {
+        name: "Git",
     },
 ];
 
@@ -73,72 +68,73 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://github.com/LimeRicky84/note-taker/raw/main/helpers/SharedScreenshot.jpg",
+        desctiption: "note taker.",
+        link: "https://ric-note.herokuapp.com",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://github.com/LimeRicky84/MVC-Blog/raw/main/Assets/MVC_blog_Screenshot.jpg",
+        desctiption: "MVC blog.",
+        link: "https://desolate-dawn-50052.herokuapp.com/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://github.com/LimeRicky84/pwa-text-editor/raw/main/Assets/pwa%20editor%20screenshot.jpg?raw=true",
+        desctiption: "pwa text editor.",
+        link: "https://dry-gorge-45239.herokuapp.com/",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://github.com/LimeRicky84/The-Plan/blob/main/assets/media/The%20Plan%20-%20Google%20Chrome%206_7_2022%2012_50_55%20AM.png?raw=true",
+        desctiption: "project 1.",
+        link: "https://limericky84.github.io/The-Plan/",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://github.com/LimeRicky84/stunning-chainsaw/blob/main/screenshot1.PNG?raw=true",
+        desctiption: "project 2.",
+        link: "https://stunning-chainsaw.herokuapp.com/",
     },
     {
         img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "Coming Soon!",
         link: "#",
     },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    // {
+    //     img: "https://picsum.photos/400/600/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/300/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/550/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/700/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
 ];
 
 const contactConfig = {
     YOUR_EMAIL: "ric.madse@gmail.com",
     YOUR_FONE: "(801)662-8509",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    description: "",
+    Pict: "https://scontent.fslc3-1.fna.fbcdn.net/v/t39.30808-6/307424377_1138208713445094_3299389594090542792_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Akzdd4yh6QAAX-eOU84&_nc_ht=scontent.fslc3-1.fna&oh=00_AT_ZrwY15wt1MLhTUjEgX4KWdFGPJipxIY-HNfF6v7jV8A&oe=632C1C4E",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -146,13 +142,9 @@ const contactConfig = {
     YOUR_USER_ID: "user_id",
 };
 
-const socialprofils = {
+const socialprofiles = {
     github: "https://github.com/LimeRicky84",
-    facebook: "https://facebook.com",
     linkedin: "https://www.linkedin.com/in/eric-madsen-302145236/",
-    twitter: "https://twitter.com",
-    youtube: "https://youtube.com",
-    twitch: "https://twitch.com",
 };
 export {
     meta,
@@ -163,6 +155,6 @@ export {
     services,
     introdata,
     contactConfig,
-    socialprofils,
+    socialprofiles,
     logotext,
 };

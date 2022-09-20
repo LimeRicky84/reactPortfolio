@@ -7,7 +7,7 @@ import {
   meta,
   worktimeline,
   skills,
-  services,
+  // services,
 } from "../../content_option";
 
 export const About = () => {
@@ -65,21 +65,13 @@ export const About = () => {
                 <div key={i}>
                   <h3 className="progress-title">{data.name}</h3>
                   <div className="progress">
-                    <div
-                      className="progress-bar"
-                      style={{
-                        width: `${data.value}%`,
-                      }}
-                    >
-                      <div className="progress-value">{data.value}%</div>
-                    </div>
                   </div>
                 </div>
               );
             })}
           </Col>
         </Row>
-        <Row className="sec_sp">
+        {/* <Row className="sec_sp">
           <Col lang="5">
             <h3 className="color_sec py-4">Services</h3>
           </Col>
@@ -93,7 +85,7 @@ export const About = () => {
               );
             })}
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </HelmetProvider>
   );
