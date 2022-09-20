@@ -69,27 +69,27 @@ const services = [{
 
 const dataportfolio = [{
         img: "https://github.com/LimeRicky84/note-taker/raw/main/helpers/SharedScreenshot.jpg",
-        desctiption: "note taker.",
+        desctiption: "A note app where notes can be added and deleted",
         link: "https://ric-note.herokuapp.com",
     },
     {
         img: "https://github.com/LimeRicky84/MVC-Blog/raw/main/Assets/MVC_blog_Screenshot.jpg",
-        desctiption: "MVC blog.",
+        desctiption: "A blogging website with login, logout and comment capabilities",
         link: "https://desolate-dawn-50052.herokuapp.com/",
     },
     {
         img: "https://github.com/LimeRicky84/pwa-text-editor/raw/main/Assets/pwa%20editor%20screenshot.jpg?raw=true",
-        desctiption: "pwa text editor.",
+        desctiption: "An online and installable text editor",
         link: "https://dry-gorge-45239.herokuapp.com/",
     },
     {
         img: "https://github.com/LimeRicky84/The-Plan/blob/main/assets/media/The%20Plan%20-%20Google%20Chrome%206_7_2022%2012_50_55%20AM.png?raw=true",
-        desctiption: "project 1.",
+        desctiption: "First class project as a team. A planner app",
         link: "https://limericky84.github.io/The-Plan/",
     },
     {
         img: "https://github.com/LimeRicky84/stunning-chainsaw/blob/main/screenshot1.PNG?raw=true",
-        desctiption: "project 2.",
+        desctiption: "Class project 2. A resume builder.",
         link: "https://stunning-chainsaw.herokuapp.com/",
     },
     {
