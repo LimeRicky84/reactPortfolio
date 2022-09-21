@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     title: "Who I Am",
-    aboutme: "I'm an area manager with The Industrial Fumigant Company and a full-stack development student at The University of Utah.",
+    aboutme: "I'm an Area Manager with The Industrial Fumigant Company and a full-stack development student at The University of Utah.",
 };
 const worktimeline = [{
         jobtitle: "Web Development Boot Camp",
@@ -49,7 +49,7 @@ const skills = [{
         name: "Node",
     },
     {
-        name: "Git",
+        name: "Vue",
     },
 ];
 
@@ -93,7 +93,7 @@ const dataportfolio = [{
         link: "https://stunning-chainsaw.herokuapp.com/",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: "https://github.com/LimeRicky84/reactPortfolio/blob/main/src/assets/images/istockphoto-1221240925-612x612.jpg?raw=true",
         desctiption: "Coming Soon!",
         link: "#",
     },
