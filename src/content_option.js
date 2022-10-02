@@ -46,24 +46,45 @@ const skills = [{
         name: "React",
     },
     {
-        name: "Node",
+        name: "HTML and CSS",
     },
     {
         name: "Vue",
     },
+    {
+        name: "Express",
+    },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        reference: "John Tengan,",
+        title: "Territory Manager - The Industrial Fumigant Co.",
+        contact1: "Phone: 562.307.4052",
+        contact2: "Email: jtengan@indfumco.com"
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        reference: "Al Fenner,",
+        title: "Territory Manager - The Industrial Fumigant Co.",
+        contact1: "Phone: ###-#### ",
+        contact2: "Email: afenner@indfumco.com"
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        reference: "Brian Anderson,",
+        title: "Instructor - University of Utah, Bootcamp",
+        contact1: "Phone: ###-#### ",
+        contact2: "Email: banderson@###.com"
+    },
+    {
+        reference: "Dylan Acup,",
+        title: "Teacher's Assistant - University of Utah, Bootcamp",
+        contact1: "Phone: ###-#### ",
+        contact2: "Email: dylan@###.com"
+    },
+    {
+        reference: "Kasey Prince,",
+        title: "Teacher's Assistant - University of Utah, Bootcamp",
+        contact1: "Phone: ###-#### ",
+        contact2: "Email: kasey@###.com"
     },
 ];
 
@@ -97,37 +118,6 @@ const dataportfolio = [{
         desctiption: "Coming Soon!",
         link: "#",
     },
-
-    // {
-    //     img: "https://picsum.photos/400/600/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/300/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/550/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/700/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
 ];
 
 const contactConfig = {
@@ -135,11 +125,6 @@ const contactConfig = {
     YOUR_FONE: "(801)662-8509",
     description: "",
     Pict: "https://scontent.fslc3-1.fna.fbcdn.net/v/t39.30808-6/307424377_1138208713445094_3299389594090542792_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Akzdd4yh6QAAX-eOU84&_nc_ht=scontent.fslc3-1.fna&oh=00_AT_ZrwY15wt1MLhTUjEgX4KWdFGPJipxIY-HNfF6v7jV8A&oe=632C1C4E",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
 };
 
 const socialprofiles = {

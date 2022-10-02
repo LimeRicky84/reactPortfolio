@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import AppRoutes from "./routes";
 import Headermain from "../header";
+import Footermain from "../footer";
 import AnimatedCursor from "react-animated-cursor";
 import "./App.css";
 
@@ -35,6 +36,7 @@ export default function App() {
       <ScrollToTop>
         <Headermain />
         <AppRoutes />
+        <Footermain />
       </ScrollToTop>
     </Router>
   );

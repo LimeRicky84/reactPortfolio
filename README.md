@@ -9,4 +9,6 @@ https://github.com/ubaimutl/react-portfolio.git
 
 GitHub: https://github.com/LimeRicky84
 
-Live Page: https://limericky84.github.io/reactPortfolio/
+Live Page: https://ancient-temple-36326.herokuapp.com/
+
+Repo for this portfolio: https://github.com/LimeRicky84/reactPortfolio

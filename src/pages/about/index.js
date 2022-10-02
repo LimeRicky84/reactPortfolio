@@ -7,7 +7,7 @@ import {
   meta,
   worktimeline,
   skills,
-  // services,
+  services,
 } from "../../content_option";
 
 export const About = () => {
@@ -62,30 +62,32 @@ export const About = () => {
           <Col lg="7">
             {skills.map((data, i) => {
               return (
-                <div key={i}>
-                  <h3 className="progress-title">{data.name}</h3>
-                  <div className="progress">
+                <ul key={i}>
+                  <li className="progress-title">   {data.name}</li>
+                  <div className="">
                   </div>
-                </div>
+                </ul>
               );
             })}
           </Col>
         </Row>
-        {/* <Row className="sec_sp">
+        <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">Services</h3>
+            <h3 className="color_sec py-4">References</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>
+                  <h4>{data.reference} </h4>
                   <h5 className="service__title">{data.title}</h5>
-                  <p className="service_desc">{data.description}</p>
+                  <p>{data.contact1}</p>
+                  <p className="service_desc">{data.contact2}</p>
                 </div>
               );
             })}
           </Col>
-        </Row> */}
+        </Row>
       </Container>
     </HelmetProvider>
   );

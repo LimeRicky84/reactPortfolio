@@ -5,6 +5,8 @@
     --text-color: #fff;
     --text-color-2: #fff;
     --overlay-color: rgb(12 12 12 / 63%);
+    --bar-color1: rgb(20, 20, 20);
+    --bar-color2: rgb(80, 80, 80);
 }
 
 [data-theme="light"] {
@@ -14,6 +16,8 @@
     --text-color: #000;
     --text-color-2: #000;
     --overlay-color: rgb(255 255 255 / 70%);
+    --bar-color1: rgb(80, 80, 80);
+    --bar-color2: rgb(200, 200, 200);
 }
 
 html,
@@ -93,3 +97,12 @@ code {
 .color_sec {
     color: var(--secondary-color);
 }
+
+::-webkit-scrollbar-track {
+    color: #202020; 
+}
+
+  ::-webkit-scrollbar-thumb {
+    background: #505050; 
+}
+
